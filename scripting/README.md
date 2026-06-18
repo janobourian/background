@@ -26,3 +26,25 @@
 * arg1 -gt arg2: True if arg1 is greater than arg2
 * arg1 -ge arg2: True if arg1 is greater than or equal to arg2
 
+## Syslog
+
+* Facilities:
+    * kern
+    * user
+    * mail
+    * daemon
+    * auth
+    * local0
+    * local7
+* Severities:
+    * emerg
+    * alert
+    * crit
+    * err
+    * warning
+    * notice
+    * info 
+    * debug
+* File locations:
+    * `/var/log/messages`
+    * `/var/log/syslog`
